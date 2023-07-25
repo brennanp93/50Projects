@@ -16,6 +16,7 @@ body {
 }
 
 #stockCanvas {
-  border: 1px solid #ccc; /* Optional: Add a border around the canvas */
-  background-color: #f7f7f7; /* Optional: Set a background color for the canvas */
+  border: 1px solid #ccc; 
+  background-color: #f7f7f7; 
+  /* width: 100%; */
 }
