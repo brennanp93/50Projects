@@ -144,12 +144,12 @@ function drawDataPoints(stockData) {
     ctx.font = "Bold 13px Arial";
     ctx.fillText(stockData[i].closingPrice, x, y - 7);
     // Text - Date
-    ctx.font = " Bold 10px Arial";
-    ctx.fillText(stockData[i].Date, x, 597);
+    ctx.font = " Bold 12px Arial";
+    ctx.fillText(stockData[i].Date, x + 3, canvasHeight-2);
     ctx.stroke();
   }
 }
 
+gridLines();
 drawMovingAverage(stockData);
 drawDataPoints(stockData);
-gridLines();

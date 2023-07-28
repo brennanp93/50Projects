@@ -15,8 +15,10 @@ body {
   margin: 0;
 }
 
-#stockCanvas {
-  border: 1px solid #ccc; 
-  background-color: #f7f7f7; 
-  /* width: 100%; */
+#canvasId {
+  border: 1px solid black;
+  background-color: #f7f7f7;
+  width: 90%;
+  max-width: 1200px;
+  max-height: 75%;
 }
